@@ -1,0 +1,12 @@
+pipeline {
+  agent any
+  stages {
+    stage('welcom to pac') {
+      steps {
+        script {
+          sh "echo hi team"
+        }
+      }
+    }
+  }
+}
